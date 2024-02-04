@@ -1,0 +1,143 @@
+{
+  "columns": [
+    {
+      "type": "switch", 
+      "required": true,
+      "key": "fanzhuan",
+      "label": "反转",
+      "placeholder": "请选择",
+      "help": "请选择是否选择菌株名为X轴"
+    }
+  ],
+  "general": [
+    {
+      "type": "input",
+      "key": "title",
+      "label": "标题",
+      "placeholder": "请输入图片标题"
+    }
+  ],
+  "plot_settings": [
+    {
+      "type": "switch", 
+      "required": true,
+      "key": "cluster_cols",
+      "label": "行聚类",
+      "placeholder": "请选择",
+      "help": "请选择是否列聚类"
+    },
+    {
+      "type": "switch", 
+      "required": true,
+      "key": "cluster_rows",
+      "label": "反转",
+      "placeholder": "请选择",
+      "help": "请选择是否行聚类"
+    },
+    {
+      "type": "number",
+      "key": "fontsize",
+      "label": "字体大小",
+      "required": true,
+      "placeholder": "请输入",
+      "help": "请输入字体大小，如10"
+    },
+    {
+      "type": "number",
+      "key": "cellheight",
+      "label": "方块高度",
+      "required": true,
+      "placeholder": "请输入",
+      "help": "请输入方块高度，例如:30"
+    },
+    {
+      "type": "number",
+      "key": "cellwidth",
+      "label": "方块宽度",
+      "required": true,
+      "placeholder": "请输入",
+      "help": "请输入方块宽度，例如:30"
+    },
+    {
+      "type": "select",
+      "options": [
+       { "label": "显示数值(Coervage)", "value": true },
+       { "label": "不显示", "value": false }
+         ],
+       "key": "display_numbers",
+       "label": "显示数值",
+       "required": true,
+       "placeholder": "请选择是否显示数值(Coervage)"
+    },
+    {
+      "type": "input",
+      "key": "number_color",
+      "label": "数值颜色",
+      "placeholder": "请输入数值颜色，如黑色"
+    },
+    {
+      "type": "select",
+      "options": [
+        { "label": "0", "value": 0 },
+        { "label": "45", "value": 45 },
+        { "label": "90", "value": 90 },
+        { "label": "270", "value": 270 },
+        { "label": "315", "value": 315 }
+      ],
+      "key": "angle_col",
+      "label": "字体倾斜角度",
+      "required": true,
+      "placeholder": "请选择字体倾斜角度"
+    },
+    {
+      "type": "select",
+      "options": [
+        { "label": "Accent", "value": "Accent" },
+        { "label": "Blues", "value": "Blues" },
+        { "label": "BrBG", "value": "BrBG" },
+        { "label": "BuGn", "value": "BuGn" },
+        { "label": "BuPu", "value": "BuPu" },
+        { "label": "GnBu", "value": "GnBu" },
+        { "label": "Greens", "value": "Greens" },
+        { "label": "Greys", "value": "Greys" },
+        { "label": "OrRd", "value": "OrRd" },
+        { "label": "Oranges", "value": "Oranges" },
+        { "label": "RdYlGn", "value": "RdYlGn" },
+        { "label": "RdYlBu", "value": "RdYlBu" }
+      ],
+      "key": "color_type",
+      "label": "颜色方案",
+      "required": true,
+      "placeholder": "请输入"
+    },
+    {
+      "type": "number",
+      "key": "width",
+      "label": "图片宽度",
+      "required": true,
+      "placeholder": "请输入",
+      "help": "请输入图片宽度"
+    },
+    {
+      "type": "number",
+      "key": "height",
+      "label": "图片高度",
+      "required": true,
+      "placeholder": "请输入",
+      "help": "请输入图片高度"
+    },
+    {
+      "type": "input",
+      "key": "nacolor",
+      "label": "空值颜色",
+      "placeholder": "请输入空值颜色，如白色"
+    },
+    {
+      "type": "input",
+      "key": "bordercolor",
+      "label": "边框颜色",
+      "placeholder": "请输入边框颜色，如黑色"
+    }
+
+  ]
+}

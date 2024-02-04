@@ -1,0 +1,21 @@
+{
+  "dataFile": {
+    "dataFilePath": ["/home/svn/software/bacterial/CAU/rawdata/169.skesa.fa","/home/svn/software/bacterial/CAU/rawdata/171.skesa.fa","/home/svn/software/bacterial/CAU/rawdata/173.skesa.fa"] 
+  },
+  "columns": {
+    "minid": 80, 
+    "mincov": 80
+  },
+  "general": {
+    "db":"ncbi",
+    "threads":4
+  },
+  "plot_settings": {
+  },
+  "others":{
+    "ID":"ID",
+    "path":"",
+    "status":2,
+    "zippath":"zippath"
+  }
+}

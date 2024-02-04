@@ -1,0 +1,39 @@
+{
+  "columns": [
+    {
+      "type": "number", 
+      "required": true,
+      "key": "minid",
+      "label": "minid",
+      "placeholder": "请输入",
+      "help": "请输入identity阈值"
+    },
+    {
+      "type": "number",
+      "required": true,
+      "key": "mincov",
+      "label": "mincov",
+      "placeholder": "请输入",
+      "help": "请输入coverage阈值"
+    }
+  ],
+  "general": [
+    {
+      "type": "select",
+      "options": [
+        { "label": "ncbi耐药基因数据库", "value": "ncbi" },
+        { "label": "argannot耐药基因数据库", "value": "argannot" },
+        { "label": "resfinder耐药基因数据库", "value": "resfinder" },   
+        { "label": "毒力基因数据库VFDB", "value": "VFDB" },
+        { "label": "Ecoli毒力基因", "value": "ecoli_vf" },
+        { "label": "plasmidfinder质粒数据库", "value": "plasmidfinder" }  
+      ],
+      "key": "db",
+      "label": "数据库",
+      "required": true,
+      "placeholder": "请选择"
+    }
+  ],
+  "plot_settings": [
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "dataFile": {
+    "dataFilePath": ["/home/svn/software/bacterial/CAU/AMR/output"] 
+  },
+  "columns": {
+    "fanzhuan":true
+  },
+  "general": {
+    "title": "ARG composition"
+  },
+  "plot_settings": {
+    "cluster_cols":false,
+    "cluster_rows":false,
+    "cellheight":30,
+    "cellwidth":30,
+    "nacolor":"white",
+    "display_numbers":false,
+    "number_color":"black",
+    "bordercolor":"black",
+    "fontsize":10,
+    "color_type":"RdYlBu",
+    "width":4,
+    "height":18,
+    "angle_col":315
+  },
+  "others":{
+    "ID":"ID",
+    "path":"path",
+    "status":2,
+    "filename1":"output.png",
+    "filename2":"output.pdf",
+    "pdfpath":"pafpath"
+  }
+}
